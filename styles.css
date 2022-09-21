@@ -34,7 +34,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     padding: 1em;
@@ -50,8 +50,9 @@ main {
 
 .title {
     font-weight: 700;
-    /* margin-top: -0.2em; */
+    margin-top: 10px;
     margin-bottom: -0.1em;
+    font-size: 1.5em;
 }
 
 .content {
@@ -68,8 +69,8 @@ main {
 
 @media screen and (min-width: 1440px) {
     .card {
-        width: 16%;
-        height: 56%;
+        width: 17%;
+        height: 65%;
     }
 }
 
